@@ -21,17 +21,17 @@ Theory
 
 Hardware Requirements
 
-- FPGA Board: [Enter board name]
-- FPGA Device: [Enter device model]
+- FPGA Development Board: DE2-115
+- FPGA Device: Intel Cyclone IV E (EP4CE115F29C7)
 - Display Interface: VGA
 - Input: Grayscale image
 
 Software Environment
 
 - HDL: Verilog
-- FPGA Development: Intel Quartus Prime [version]
-- Simulation: ModelSim [version]
-- Image Preparation: Python [version, if used]
+- FPGA Development: Intel Quartus Prime
+- Simulation: ModelSim 
+- Image Preparation: Python 
 
 Design Modules
 
@@ -67,6 +67,4 @@ Repository Structure
 - "constraints/" — Timing constraints
 - "results/" — Output screenshots
 
-Author
 
-Avantika Narvekar
