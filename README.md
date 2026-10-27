@@ -1,17 +1,17 @@
-FPGA-Based Brain Tumor Detection Using Verilog HDL
+# FPGA-Based Brain Tumor Detection Using Verilog HDL
 
-Overview
+# Overview
 
 This project implements image processing techniques on an FPGA using Verilog HDL for a brain tumor detection application. The design performs thresholding, erosion, dilation, and boundary detection on grayscale image data. The processed output can be visualized through a VGA display.
 
-Objectives
+# Objectives
 
 - Implement image processing operations using Verilog HDL.
 - Process grayscale images using FPGA hardware.
 - Perform thresholding and morphological operations.
 - Display processed images using a VGA interface.
 
-Theory
+# Theory
 
 - Thresholding: Converts a grayscale image into a binary image based on a selected intensity threshold.
 - Erosion: Reduces foreground regions and removes small structures in a binary image.
@@ -19,21 +19,21 @@ Theory
 - Boundary Detection: Extracts the boundaries of foreground regions.
 - FPGA Processing: Implements image processing operations as digital hardware using Verilog HDL.
 
-Hardware Requirements
+# Hardware Requirements
 
 - FPGA Development Board: DE2-115
 - FPGA Device: Intel Cyclone IV E (EP4CE115F29C7)
 - Display Interface: VGA
 - Input: Grayscale image
 
-Software Environment
+# Software Environment
 
 - HDL: Verilog
 - FPGA Development: Intel Quartus Prime
 - Simulation: ModelSim 
 - Image Preparation: Python 
 
-Design Modules
+# Design Modules
 
 Module| Function
 "top.v"| Top-level module
@@ -47,19 +47,19 @@ Module| Function
 "vga_clock.v"| Generates the VGA clock
 "vga_controller.v"| Controls VGA output
 
-Implementation
+# Implementation
 
 The grayscale image is converted into pixel data and stored in FPGA memory using a memory initialization file. The Verilog modules process the image data, and the selected output is sent to the VGA controller for display.
 
-Results
+# Results
 
 Screenshots of the original image and the processed outputs will be included in this section.
 
-Limitations
+# Limitations
 
 The implemented image processing operations assist in image segmentation and boundary extraction but do not independently confirm the presence of a brain tumor. The project is intended for educational purposes and is not a clinically validated diagnostic system.
 
-Repository Structure
+# Repository Structure
 
 - "rtl/" — Verilog source files
 - "simulation/" — Testbench
