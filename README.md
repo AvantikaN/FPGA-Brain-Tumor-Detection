@@ -35,20 +35,20 @@ This project implements image processing techniques on an FPGA using Verilog HDL
 
 # Design Modules
 
-Module| Function
-Design Modules
+## Design Modules
 
-Module| Function
-"top.v"| Top-level module integrating the design components
-"braintumor.v"| Main image processing logic
-"image_memory.v"| Stores and supplies image pixel data
-"threshold.v"| Performs image thresholding
-"window3x3.v"| Provides a 3×3 pixel neighbourhood
-"erosion.v"| Performs morphological erosion
-"dilation.v"| Performs morphological dilation
-"boundary.v"| Performs boundary detection
-"vga_clock.v"| Generates the VGA clock
-"vga_controller.v"| Controls VGA timing and display output
+| Module | Function |
+|---|---|
+| `top.v` | Top-level module integrating the design components |
+| `braintumor.v` | Main image processing logic |
+| `image_memory.v` | Stores and supplies image pixel data |
+| `threshold.v` | Performs image thresholding |
+| `window3x3.v` | Provides a 3×3 pixel neighbourhood |
+| `erosion.v` | Performs morphological erosion |
+| `dilation.v` | Performs morphological dilation |
+| `boundary.v` | Performs boundary detection |
+| `vga_clock.v` | Generates the VGA clock |
+| `vga_controller.v` | Controls VGA timing and display output |
 
 # Implementation
 
