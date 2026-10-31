@@ -31,7 +31,7 @@ This project implements image processing techniques on an FPGA using Verilog HDL
 - HDL: Verilog
 - FPGA Development: Intel Quartus Prime
 - Simulation: ModelSim 
-- Image Preparation: Python 
+- Image Preprocessing: Python 
 
 # Design Modules
 
